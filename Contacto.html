@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contacto.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="img/logo.png" alt="">ArgenBurguesas</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platillos</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo1.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa con helado</td>
+                                            <td>$15</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo3.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa sencilla</td>
+                                            <td>$15</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <style>
+	body{font-family: Arial; background-color: #18A383; box-sizing: border-box;}
+
+	form{
+		background-color: rgb(255, 255, 255);
+		border-radius: 3px;
+		color: #999;
+		font-size: 0.8em;
+		padding: 80px;
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	input, textarea{
+		border: 0;
+		outline: none;
+
+		width: 280px;
+	}
+
+	.field{
+		border: solid 1px #ccc;
+		padding: 10px;
+
+
+	}
+
+	.field:focus{
+		border-color: #18A383;
+	}
+
+	.center-content{
+		text-align: center;
+	}
+
+</style>
+</head>
+<body>
+<form action="">
+	<p>Nombre:</p>
+	<input type="text" class="field"> <br/>
+
+	<p>Correo electrónico:</p>
+	<input type="text" class="field"> <br/>
+
+	<p>Asunto:</p>
+	<input type="text" class="field"> <br/>
+
+	<p>Mensaje:</p>
+	<textarea class="field"></textarea> <br/>
+
+	<p class="center-content">
+		<input type="submit" class="btn btn-green" value="Enviar Datos">
+	</p>
+</body>
+</html>
